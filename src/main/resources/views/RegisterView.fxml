@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.javafxapplication1.gui.controllers.RegisterController">
+    <top>
+        <Label text="Register" style="-fx-font-size: 24px; -fx-padding: 10;" alignment="CENTER" />
+    </top>
+    <center>
+        <VBox spacing="15" alignment="CENTER">
+            <TextField fx:id="usernameField" promptText="Username" />
+            <PasswordField fx:id="passwordField" promptText="Password" />
+            <Button text="Register" onAction="#handleRegister" style="-fx-font-size: 16px;" />
+        </VBox>
+    </center>
+    <bottom>
+        <Label text="© 2024 Cloud Load Balancer" style="-fx-padding: 10; -fx-font-size: 12px;" alignment="CENTER" />
+    </bottom>
+</BorderPane>

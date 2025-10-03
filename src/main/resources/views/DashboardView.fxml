@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.javafxapplication1.gui.controllers.FileController">
+    <top>
+        <Label text="Dashboard" style="-fx-font-size: 18px;" alignment="CENTER" />
+    </top>
+    <center>
+        <VBox spacing="10" alignment="CENTER">
+            <ListView fx:id="fileList" prefHeight="200" prefWidth="300" />
+            <HBox spacing="10" alignment="CENTER">
+                <Button text="Select File" onAction="#handleSelectFile" />
+                <Button text="Delete File" onAction="#handleDeleteFile" />
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.javafxapplication1.gui.controllers.MainController">
+    <top>
+        <Label text="Welcome to Cloud Load Balancer" style="-fx-font-size: 24px; -fx-padding: 10;" alignment="CENTER" />
+    </top>
+    <center>
+        <VBox spacing="15" alignment="CENTER">
+            <Button text="Register" onAction="#handleRegister" style="-fx-font-size: 16px;" />
+            <Button text="Login" onAction="#handleLogin" style="-fx-font-size: 16px;" />
+        </VBox>
+    </center>
+    <bottom>
+        <Label text="© 2024 Cloud Load Balancer" style="-fx-padding: 10; -fx-font-size: 12px;" alignment="CENTER" />
+    </bottom>
+</BorderPane>
