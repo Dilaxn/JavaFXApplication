@@ -17,3 +17,4 @@
         <Label text="© 2024 Cloud Load Balancer" style="-fx-padding: 10; -fx-font-size: 12px;" alignment="CENTER" />
     </bottom>
 </BorderPane>
+
