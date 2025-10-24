@@ -25,3 +25,5 @@ A comprehensive JavaFX-based application with user authentication, file manageme
 ## License
 
 MIT License
+
+<!-- Build: 2025-10-24 12:38:42 -->
