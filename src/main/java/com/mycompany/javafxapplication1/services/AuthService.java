@@ -7,3 +7,4 @@ public class AuthService {
         return user != null && user.getPassword().equals(password);
     }
 }
+
