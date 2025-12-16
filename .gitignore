@@ -28,6 +28,10 @@ Thumbs.db
 
 # Ignore Docker-related files
 *.env
+docker/
+
+# Ignore JavaFX SDK (large files)
+javafx-sdk*/
 
 # Ignore Java temporary files
 hs_err_pid*.log
